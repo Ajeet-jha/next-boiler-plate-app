@@ -6,7 +6,7 @@ export const bookStore = () => {
   return configureStore({
     reducer: {
       booking: bookSlice,
-    //   apartment: apartmentSlice,
+      //   apartment: apartmentSlice,
     },
   });
 };

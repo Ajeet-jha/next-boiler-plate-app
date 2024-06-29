@@ -1,6 +1,6 @@
-import ReduxComponent from "@/components/test/ReduxComponent"
-import TestComponent from "@/components/test/TestComponent"
-import { Button } from "@/components/ui/button"
+import ReduxComponent from "@/components/test/ReduxComponent";
+import TestComponent from "@/components/test/TestComponent";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
       <TestComponent />
       <Button>Click me</Button>
     </div>
-  )
+  );
 }
