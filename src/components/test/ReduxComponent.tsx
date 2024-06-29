@@ -6,11 +6,11 @@ function ReduxComponent() {
     const store = useAppStore();
     const booking = useAppSelector((state) => state.booking);
     console.log(booking);
-    
+
     const dispatch = useAppDispatch();
-  return (
-    <div>ReduxComponent</div>
-  )
+    return (
+        <h1>ReduxComponent</h1>
+    )
 }
 
 export default ReduxComponent
